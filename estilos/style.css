@@ -65,13 +65,14 @@ div#formulario > p {
 }
 
 form > div.campo {
+    display: flex;
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
-    display: block;
     width: 100%;
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
+  
 }
 
 div.campo label {
@@ -84,27 +85,16 @@ div.campo > span {
     font-size: 2em;
     width: 40px;
     padding: 5px;
-    display: inline; /**/
-    float: left; /**/
 }
 
 div.campo > input {
-    display: inline;/**/
-    width: calc(100% - 40px); /**/
-    height: 100%; /**/
-    border-radius: 8px; /**/
-    border: 0px; /**/
-    background-color: #94cfcd; /**/
-    font-size: 1em; /**/
-    padding: 2px; /**/
-    /* background-color: #94cfcd;
+    background-color: #94cfcd;
     font-size: 1em;
-    width:calc(100% - 45px);
+    width:calc(100% - 40px);
     height: 100%;
     border: 0px;
     border-radius: 8px; 
     padding: 2px;
-    transform: translateY(-12px); */
 }
 
 div.campo > input:focus-within {
